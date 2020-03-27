@@ -38,6 +38,7 @@ button{
     align-items: center;
    
 }
+/*Aquí doy los estilos a los links*/
 a{
     color: white;
     text-decoration: none;
@@ -53,6 +54,7 @@ li a{
     text-decoration: none;
 }
 
+/*Ubicacion de la imagen de fondo y del texto*/
 .hero{
      height: 700px;
      background-image: url(../images/verde.png);
@@ -61,9 +63,7 @@ li a{
      background-position-x: left;
      margin-top: 0;     
 }
-.hero .hero-img{
-    margin: 0;
-}
+
 .hero-description{
     float: right;
     color: white;
@@ -74,8 +74,8 @@ li a{
    align-items: center;
    margin-right: 20px;
 }
-p{f
-    ont-family:'Oswald', sans-serif;
+p{
+    font-family:'Oswald', sans-serif;
 }
 .titulo{
     font-family:'Oswald', sans-serif;
